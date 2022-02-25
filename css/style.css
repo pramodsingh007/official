@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-family: 'Rowdies', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li {
+    font-family: 'Sacramento', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*Navigation bar Menu*/
+
+#navbarNav {
+    display: flexbox;
+    justify-content: right;
+}
+
+li {
+    margin: 0 8px 0 8px;
+}
+
+a {
+    padding: 0 0;
+}
+
+#login {
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+}
+
+.logsign {
+    margin: 5px 5px 5px 5px;
+}
+
+
+/* slide show carousel */
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out
+}
+
+
+/* email section */
+
+#hello {
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+#email {
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: xx-large;
+    margin-bottom: 5rem;
+}
+
+.form-control {
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+
+/* projects */
+
+h2 {
+    text-align: center;
+    margin-bottom: 7%;
+    padding-top: 5%;
+}
+
+.project-card {
+    margin: 0 5% 5% 5%;
+    text-align: center;
+}
+
+.project-card:hover {
+    font-weight: 500;
+}
+
+#web-project {
+    background-color: white;
+}
+
+
+/* about section */
+
+#about {
+    text-align: center;
+    font-size: 400%;
+    color: white;
+    margin-bottom: 15%;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa:hover {
+    color: black;
+}
+
+.about-p {
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.about-who {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+#huh {
+    margin-top: 15%;
+}
+
+
+/* contact section */
+
+#contact {
+    text-align: center;
+    font-size: 400%;
+    color: white;
+    margin-bottom: 15%;
+}
+
+.contact-item {
+    text-align: center;
+    color: white;
+}
+
+.fa-linkdin {
+    color: blue;
+}
